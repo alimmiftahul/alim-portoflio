@@ -1,6 +1,7 @@
 import React from 'react';
 //image
 import avatar from '../assets/alim-pixar.png';
+import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
@@ -73,15 +74,15 @@ const Banner = () => {
                         </motion.div>
 
                         <div className='flex text-[20px] gap-x-4 max-w-max mx-auto lg:mx-0 lg:ml-8 lg:mt-[-20px]'>
-                            <a href='#'>
+                            <Link to='https://github.com/alimmiftahul'>
                                 <FaGithub />
-                            </a>
-                            <a href='#'>
+                            </Link>
+                            <Link to='https://www.linkedin.com/in/miftahul-alim-4b7525173/'>
                                 <FaLinkedin />
-                            </a>
-                            <a href='#'>
+                            </Link>
+                            <Link to='https://api.whatsapp.com/send?phone=6281340808454'>
                                 <FaWhatsapp />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <motion.div
